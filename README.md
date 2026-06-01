@@ -25,6 +25,22 @@ pytest
 - `data/sysex_dumps`: Local SysEx examples (not committed by default)
 - `scripts`: Helper scripts
 
+## AI Transparency
+
+This repository contains AI-assisted code contributions (primarily generated or edited with Codex).
+
+Human code review has not been completed for all recent changes.
+Validation so far is mainly automated and local testing plus AI cross-checks (for example Claude Sonnet), not formal manual QA.
+Please treat the current state as actively evolving and verify behavior in your own setup.
+
+## Contributing
+
+Contributions are welcome.
+
+Bug reports, reproducible test cases, and pull requests are appreciated.
+If you spot issues in MIDI parsing, monitoring, or SysEx handling, please open an issue with logs and sample data.
+Community improvements and review help are explicitly invited.
+
 ## Next Steps
 
 1. Add real SysEx dump samples into `data/sysex_dumps`
