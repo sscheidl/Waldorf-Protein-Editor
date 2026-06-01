@@ -1,0 +1,22 @@
+﻿[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waldorf-protein-editor"
+version = "0.1.0"
+description = "SysEx parser and tooling foundation for Waldorf Protein patch editing"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Community" }]
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
